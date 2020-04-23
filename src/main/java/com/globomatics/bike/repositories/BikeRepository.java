@@ -2,6 +2,8 @@ package com.globomatics.bike.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface BikeRepository extends JpaRepository<T, ID> {
+import com.globomatics.bike.models.Bike;
+
+public interface BikeRepository extends JpaRepository<Bike, Long> {
 
 }
